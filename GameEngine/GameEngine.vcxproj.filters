@@ -70,5 +70,8 @@
     <FxCompile Include="Shader\Default\BasicVertexShader.hlsl">
       <Filter>ソース ファイル\Shader\Default</Filter>
     </FxCompile>
+    <FxCompile Include="Shader\Default\BasicPixelShader.hlsl">
+      <Filter>ソース ファイル\Shader\Default</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
