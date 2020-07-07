@@ -29,6 +29,8 @@ public:
 	void CreateVertexBuffer();
 	void CreateVertexCopy();
 	void CreateVertexView();
+	HRESULT CreatePipeline(std::vector<D3D12_INPUT_ELEMENT_DESC> inputLayout);
+	HRESULT CreateRootSignature();
 	HRESULT CompileShader();
 	bool CheckShaderCompileResult(HRESULT result, ComPtr<ID3DBlob> error);
 private:
@@ -41,4 +43,5 @@ private:
 	ComPtr<ID3DBlob> m_vs_blob = nullptr;
 	ComPtr<ID3DBlob> m_ps_blob = nullptr;
 	ComPtr<ID3DBlob> m_error_blob = nullptr;
+	ComPtr<ID3D12PipelineState> m_pipelinestate = nullptr;
 };
