@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{052f797f-4d1b-482f-8b48-587163072de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application">
+      <UniqueIdentifier>{72ca1093-c97d-4cbd-907f-57d5d7d1fcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX\DirectXFacade">
+      <UniqueIdentifier>{8b73f5a6-4909-44a6-a221-d938407e4932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX\DirectXHelper">
+      <UniqueIdentifier>{c580e462-7f17-49de-94e1-bb0c9ca7ac34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX\DirectXRenderer">
+      <UniqueIdentifier>{9e0c2657-44bb-4316-8865-c2359e5b7c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shader">
+      <UniqueIdentifier>{d3586bba-bf55-466f-9d76-d943ecc65eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shader\Default">
+      <UniqueIdentifier>{5269ab4d-9a4b-4aea-be06-c027fc6c7286}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Application.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectXFacade\DirectXFacade.cpp">
+      <Filter>ソース ファイル\DirectX\DirectXFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectXHelper\DirectXHelper.cpp">
+      <Filter>ソース ファイル\DirectX\DirectXHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectXRenderer\DirectXRenderer.cpp">
+      <Filter>ソース ファイル\DirectX\DirectXRenderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\Application.h">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectXFacade\DirectXFacade.h">
+      <Filter>ソース ファイル\DirectX\DirectXFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectXHelper\DirectXHelper.h">
+      <Filter>ソース ファイル\DirectX\DirectXHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectXRenderer\DirectXRenderer.h">
+      <Filter>ソース ファイル\DirectX\DirectXRenderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\Default\BasicVertexShader.hlsl">
+      <Filter>ソース ファイル\Shader\Default</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
